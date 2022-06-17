@@ -1,0 +1,47 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-width: 640px;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Verdana", "Tahoma", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #23272a;
+
+}
+.page h1 {
+    font-family: 'Impact';
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+  width: 580px;
+  margin: 0 auto;
+}
+
+.page-footer {
+  margin-top: auto;
+  color: #ffffff;
+  background-color: #7289da;
+  font-family: 'Cooper';
+}
+
+.page-footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 10px;
+
+}
+
+.page-footer p {
+  margin: 0;
+  padding: 0;
+}
