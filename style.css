@@ -4,44 +4,53 @@
   min-width: 640px;
   min-height: 100vh;
   margin: 0;
-  font-family: "Verdana", "Tahoma", sans-serif;
-  font-size: 14px;
-  line-height: 18px;
+  line-height: 10px;
+  font-family: 'Prata', serif;
   color: #ffffff;
-  background-color: #23272a;
-
+  background-image: linear-gradient(to bottom,rgba(255,255,255,0), rgba(0,0,0,0.9)), url(img/back.jpg);
+  background-position: center;
+  align-items: center;
 }
+.myButton {
+  color: #ffffff;
+  font-size: 30px;
+  border-radius: 25px;
+  border: 1px #ffffff solid;
+  padding: 18px 18px;
+  padding-left: 46px;
+  cursor: pointer;
+  width: 240px;
+  text-decoration: none;
+  display: flex;
+  
+}
+.myButton:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
 .page h1 {
-    font-family: 'Impact';
     font-size: 100px;
     display: flex;
     align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
     justify-content: center;
 
 }
 
-.container {
-  width: 580px;
-  margin: 0 auto;
-}
-
 .page-footer {
-  margin-top: auto;
+  font-family: 'Prata', serif;
+  font-size: 10px;
+  padding: 1px;
+  margin: 30px auto;
   color: #ffffff;
-  background-color: #7289da;
-  font-family: 'Cooper';
+  background-color: #7289da 100%;
+
+  text-decoration: none
 }
-
-.page-footer .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 12px;
-  padding-bottom: 10px;
-
-}
-
-.page-footer p {
-  margin: 0;
-  padding: 0;
+.page-footer a{
+  color: #ffffff;
+  text-decoration: none;
 }
